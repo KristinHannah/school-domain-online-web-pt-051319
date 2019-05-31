@@ -13,7 +13,6 @@ class School
     @student_name = student_name
     @grade = grade 
     @roster[grade] << student_name
-    @roster[@grade] = []
   end 
     
 end 

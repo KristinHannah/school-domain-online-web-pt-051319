@@ -13,7 +13,9 @@ class School
     @student_name = student_name
     @grade = grade 
     
-    @roster << @grade 
+    @roster[:@grade] << @student_name
   end 
 
 end 
+
+h[:key] << "bar"

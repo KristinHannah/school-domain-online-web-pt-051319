@@ -18,4 +18,3 @@ class School
 
 end 
 
-h[:key] << "bar"
